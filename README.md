@@ -19,10 +19,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Beau van Dijk
 
   #### Je startniveau:
-  Blauw
+  Rood
 
   #### Je focus:
-  Responsive
+  Surface plane
  
 </details>
 
@@ -44,7 +44,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   #### Screenshot(s) van de tweede pagina (small screen):
   Kom in actie pagina  
-  <img src="./images/wwf2.jpg" width="375px" alt="omschrijving van de pagina">
+  <img src="./images/wwf2.png" width="375px" alt="omschrijving van de pagina">
  
 </details>
 
@@ -60,27 +60,46 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   #### Screenreader
   Hier korte omschrijving (met indien nodig afbeeldingen)
+  Heel vervelend en kan lang duren voordat je bent waar je wilt zijn 
 
   Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
-
+  Kopjes en titels meer specifieker maken bij een onderwerp zodat ge gebruiker sneller naar de pagina komen waar hij naar opzoek is. 
 
   #### Muis en Toetsenbord 
   Hier korte omschrijving (met indien nodig afbeeldingen)
+  ?? Je kan niet goed klikken met de muis of trackpad waardoor je verkeerd of niet kunt klikken
 
   Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
-
+  Harder drukken op te toetsen voordat er een letter komt of langer ingedrukt houden
+  De cursor van de muis slomer maken zodat je gemakkelijker kan klikken of het klikveld groter maken 
 
   #### Motoriek (shocks, elastiekjes)
   Hier korte omschrijving (met indien nodig afbeeldingen)
+  Het is vervelend om geconcentreerd aan het werk te gaan of snel iets op te zoeken 
+  
+  -Je kan niet goed typen 
+  -Moeilijk navigeren 
 
   Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
-
+  Op de website meer tijd krijgen en dat te toetsen harder ingedrukt moeten worden of langer duren zodat er geen typfouten komen
 
   #### Visueel (brillen, contrast, kleurenblind, dark/light). 
   Hier korte omschrijving (met indien nodig afbeeldingen)
+  Tunnel visie
+  -Je moet goed met je ogen knijpen om te concentreren 
+  -Ziet niet heel goed
+
+  Vlek in het midden 
+  -Je kan wel goed zien maar is wel vervelend 
+  -Je moet goed concentreren 
+
+  Toegankelijk 
+  Het is vervelend en je moet er meer inspanning voor doen maar het valt uiteindelijk best wel mee
+  -Je hebt minder zicht maar ziet wel goed 
+  -Het is niet heel vervelend
 
   Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
-
+  Langer de tijd nemen 
 </details>
 
 
@@ -91,13 +110,20 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na afloop 2e werkgroep</summary>
 
   ### de hele pagina: 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
+  <img src="./images/wwf1.jpg" width="375px" alt="breakdown van de hele pagina">
+  <img src="./images/wwf2.png" width="375px" alt="breakdown van de hele pagina">
 
   ### dynamisch deel (bijv menu): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
+  <img src="./images/form1.png" width="375px" alt="breakdown van een dynamisch deel">
 
   ### wellicht nog een dynamisch deel (bijv filter): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
+  <img src="./images/form2.png" width="375px" alt="breakdown van nog een dynamisch deel">
+
+  ### wellicht nog een dynamisch deel (bijv filter): 
+  <img src="./images/form3.png" width="375px" alt="breakdown van nog een dynamisch deel">
+
+  ### wellicht nog een dynamisch deel (bijv filter): 
+  <img src="./images/form4.png" width="375px" alt="breakdown van nog een dynamisch deel">
 
 </details>
 
