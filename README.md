@@ -138,10 +138,16 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Stand van zaken
   hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
-
+   klein nieuws stukje minder goed
+   <img src="./images/nieuwsstukje.png" width="375px" alt="nieuwsstukje">
+   <img src="./images/nieuwscode.png" width="375px" alt="nieuwscode">
+   <img src="./images/nieuwscss.png" width="375px" alt="nieuwscss">
+    Ik heb er uiteindelijk 2 sections van gemaakt met dezelfde opmaak dat was voor mij de beste oplossing om het te maken. 
+    de rest van de pagina ging goed
 
   ### Agenda voor meeting
   samen met je groepje opstellen
+  We hadden samen besproken dat we ieder 20 minuten van het uur namen om onze vragen te stellen en feedback te krijgen. 
 
   | student 1      | student 2          | student 3    | student 4        |
   | ---            | ---                | ---          | ---              |
@@ -153,10 +159,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  - Ik was de body vergeten in mijn HTML en dan zou mijn website eigenlijk niet staan maar hij deed het wel en ik had alleen main
+  - Ik zou mijn headings kunnen versimpelen bij main H1 etc te maken en als ik het anders wil moet ik het specifiek aanpassen bijv met margin erbij zodat ik niet alles opnieuw steeds hoef te typen. 
+ 
 
 </details>
 
@@ -171,7 +176,14 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Stand van zaken
   hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  
+  Het maken van het menu ging makkelijk met de javascript na het maken van de opdracht, dus dat ging soepel. Toen ik de positie van de button wou gaan verplaatsen dat ging wat minder, want ik kreeg er soms geen beweging in en ik had een heel klein grijs bolletje erbij die ik ook niet wegkreeg. Daarbij was het hamburger menu als je hem wou sluiten niet gelijk met icoon om hem te openen, dit kwam doordat de sluitmenu 2 naast elkaar had en de ene die zag je niet. 
+  <img src="./images/menustukje.png" width="375px" alt="menu">
 
+  Bij de footer heb ik 6 logo's die ik 2 om 4 wou neerzetten maar dat wou ik met een grid gaan maken, maar dat lukte mij niet echt. De student assistent heeft mij geholpen en heeft er een UL van gemaakt met een grid. Dit zit wel 2 om 4 apart in een ul verpakt. 
+  <img src="./images/logohtml.png" width="375px" alt="logohtml">
+  <img src="./images/logocss.png" width="375px" alt="logocss">
+  <img src="./images/logostukje.png" width="375px" alt="logostukje">
 
   ### Agenda voor meeting
   samen met je groepje opstellen
