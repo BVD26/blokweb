@@ -58,16 +58,20 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen:
 
+  Veel klikken 
+  Onnodige hovers 
+  Soms teveel elementen 
+
   #### Screenreader
   Hier korte omschrijving (met indien nodig afbeeldingen)
   Heel vervelend en kan lang duren voordat je bent waar je wilt zijn 
 
   Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
-  Kopjes en titels meer specifieker maken bij een onderwerp zodat ge gebruiker sneller naar de pagina komen waar hij naar opzoek is. 
+  Kopjes en titels meer specifieker maken bij een onderwerp zodat de gebruiker sneller naar de pagina komen waar hij naar opzoek is. 
 
   #### Muis en Toetsenbord 
   Hier korte omschrijving (met indien nodig afbeeldingen)
-  ?? Je kan niet goed klikken met de muis of trackpad waardoor je verkeerd of niet kunt klikken
+  Je kan niet goed klikken met de muis of trackpad waardoor je verkeerd of niet kunt klikken
 
   Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
   Harder drukken op te toetsen voordat er een letter komt of langer ingedrukt houden
@@ -149,13 +153,6 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   samen met je groepje opstellen
   We hadden samen besproken dat we ieder 20 minuten van het uur namen om onze vragen te stellen en feedback te krijgen. 
 
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
-
-
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
@@ -187,12 +184,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Agenda voor meeting
   samen met je groepje opstellen
-
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+  We hadden samen besproken dat we ieder 20 minuten van het uur namen om onze vragen te stellen en feedback te krijgen. 
 
 
   ### Verslag van meeting
@@ -201,8 +193,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   - Bij de tekst met afbeelding de P in de A zetten met position absolute. De a moet position relative 
   gebruiken. 
   - HR niet gebruiken border bottom gebruiken. 
-  - nog een punt
-- ...
+ 
+
 
 </details>
 
@@ -218,29 +210,50 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
 
+  Het menu was niet zichtbaar bij de screenreader
+
+  Ik heb minder onnodige hovers en elementen wegehaald want dat neemt ook extra tijd in als je snel iet wilt gaan lezen of naar toe gaan.
+
   #### Screenreader
   Hier korte omschrijving (met indien nodig afbeeldingen)
+  Het ging eigenlijk best wel soepel met het per stuk lezen van de website, maar soms wel een beetje sloom  
 
   Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
-
+  De screenreader zelf zou een update moeten krijgen en beter moeten kunnen onderscheiden wat de elementen/content zijn/is. Zo kan de gebruiker beter zijn weg vinden op de website
 
   #### Muis en Toetsenbord 
   Hier korte omschrijving (met indien nodig afbeeldingen)
+  Het toetsenbord is wel makkelijk te gebruiken voor als je kunt zien, maar niet voor slechtziende/blinde mensen.
 
   Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
-
+  Voor de slechtziende/blinde mensen zou ik een braille toetsenbord en muis gebruiken
+  Voor de mensen die de letters niet gebruiken missen een toetsenbord met tekens die ze wel kennen gebruiken als dat bestaat.
 
   #### Motoriek (shocks, elastiekjes)
   Hier korte omschrijving (met indien nodig afbeeldingen)
+  Het is heel lastig om te scrollen met de trackpad van de macbook want het trillen van de hand maakt het veel lastiger. 
+  Met de elastiekjes kun je ook moeilijk scrollen want je hebt bij de trackpad een aantal vingers nodig om te scrollen of een andere interactie te doen.
 
   Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
-
+  Bij de shocks een externe muis toevoegen zodat je gemakkelijker kan klikken en scrollen
+  Bij de elastiekjes zou ik wel de trackpas houden maar dan de onderdelen om te scrollen op een andere manier zoals lang op de onder of bovenkant van de trackpad drukken 
 
   #### Visueel (brillen, contrast, kleurenblind, dark/light). 
   Hier korte omschrijving (met indien nodig afbeeldingen)
+   
+   Tunnel visie
+  -Je moet goed met je ogen knijpen om te concentreren 
+  -Je kan niet goed zien
+
+  Vlek in het midden 
+  -Je kan wel goed zien maar is irritant
+  -Je moet goed kunnen concentreren 
+
+  Contrast/kleurenblind
+  -Het is moeilijk om de kleuren te onderscheiden vooral als je iets fout hebt gedaan en de kleur rood niet kunt zien
 
   Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
-
+  Langer de tijdnemen en extra informatie erbij zetten als nodig is zodat je weet dat het zo moet
 </details>
 
 
@@ -255,24 +268,18 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Stand van zaken
   hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
 
+  Ik was bezig met een animatie op een knop op de homepagina en op een gegeven moment was ik daarmee klaar maar hij deed het niet. Ik heb op verschillende manieren geprobeerd om het te laten werken maar tevergeefs. Ik had het aan de studentassistent gevraagd en die zei eerst ook van dat het goed is gecodeerd, maar ook niet zo snel wist. Uiteindelijk was het probleem dat de div een display: flex nodig had, maar we wisten allebei niet waarom dat zo moest. 
 
   ### Agenda voor meeting
   samen met je groepje opstellen
-
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
-
+  We hadden samen besproken dat we ieder 20 minuten van het uur namen om onze vragen te stellen en feedback te krijgen. 
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
+  Er waren eigenlijk niet veel punten wat ik echt zou moeten verbeteren
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  - Sommige afbeeldingen mogen wel een zwarte gradient hebben want de witte tekst is soms niet leesbaar 
+
 
 </details>
 
@@ -286,18 +293,26 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor eindgesprek</summary>
 
   ### Je uitkomst - karakteristiek screenshots:
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="uitomst opdracht 1">
+  <img src="./images/homeeind.png" width="375px" alt="uitomst opdracht 1">
+  <img src="./images/formuliereind.png" width="375px" alt="uitomst opdracht 1">
 
 
   ### Dit ging goed/Heb ik geleerd: 
   Korte omschrijving met plaatjes
+  Over het algemeen ging het best goed. ik had weinig dingen waar ik nou echt mee zat. Het enige was wel dat ik soms de basis onderdelen was vergeten zoals een body aanmaken of de footer in de footer zetten in plaats van als section.
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
-
+  Ik heb de :has en :checked erbij geleerd
+  Ik weet dat je het waarschijnlijk heel makkelijk ook met classes kunt doen, maar dit is voor mij ook veel makkelijker en het is ook specifieker in je css. 
+  <img src="./images/checked.png" width="375px" alt="top">
+  
+  Animaties
+  Ik had wel al een idee van de animaties maar ik was er nog niet veel verder op in gegaan. Ik weet nu wel ongeveer hoe ik een animatie kan maken, maar ik zou daar dan wel nog een beetje hulp bij moeten krijgen. 
 
   ### Dit was lastig/Is niet gelukt:
   Korte omschrijving met plaatjes
-
+  
+  Valid en invalid 
+  Het is mij soort van wel gelukt, maar de invalid blijft domineren en als ik iets heb ingevuld dan gaat hij naar de valid. Ik heb ook een focus erop maar die werkt alleen op de opmerkingen. Ik wilde nog de intermediate state toevoegen maar dat is niet gelukt.  
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
 </details>
 
@@ -312,8 +327,12 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 
-  1. bron 1
-  2. bron 2
-  3. ...
+  1. De slides/opdrachten op DLO van het vak frontend development
+  2. Aria label https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Attributes/aria-label
+  3. Has selector https://css-tricks.com/the-css-has-selector/
+  4. Checked Selector https://developer.mozilla.org/en-US/docs/Web/CSS/:checked
+  5. Grid https://css-tricks.com/snippets/css/complete-guide-grid/
+  6. Flexbox https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+  7. Animaties https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Animations/Using_CSS_animations
 
 </details>

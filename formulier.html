@@ -1,49 +1,187 @@
 <!doctype html>
 <html lang="nl">
-	
+
 <head>
 	<meta charset="UTF-8">
-	<meta name="author" content="jouw naam">
+	<meta name="author" content="Beau van Dijk">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	
-	<title>Howdy FED2223</title>
-	
+
+	<title>formulier</title>
+
 	<link href="styles/style.css" rel="stylesheet">
 	<link rel="icon" type="image/svg+xml" href="images/favicon.svg">
 </head>
 
-<body>
-	<h1>Howdy FED2223</h1>
-<header>
+<body class="formulier">
 
-</header>
+	<header>
+		<img src="./images/logo.svg" alt="logo">
+		<button aria-label="menu-openen"><img src="./images/menu-01.svg" alt="menu-openen"></button>
+		<nav>
+			<!-- de sluit button -->
+			<!-- de button is ook niet relevant voor screenreaders -->
+			<button aria-label="menu-sluiten"><img src="./images/menu_zwart-02.svg" alt="menu-sluiten"></button>
 
-<main>
+			<ul>
+				<li><a href="./index.html">Wat we Doen</a></li>
+				<li><a href="./index.html">Kom in actie</a></li>
+				<li><a href="./index.html">Bedreigde dieren</a></li>
+				<li><a href="./index.html">Jeugd</a></li>
+				<li><a href="./index.html">Webshop</a></li>
+				<li><a href="./index.html">Vrijwilligers</a></li>
+				<li><a href="./index.html">Winkelwagen</a></li>
+				<li><a href="./index.html">Contact</a></li>
+				<li><a href="./index.html">Over WWF</a></li>
+			</ul>
+		</nav>
+	</header>
 
-<section>
-	
-</section>
-	
-	<section>
-		<form>
-			<input name="name" type="text" placeholder="Naam" />
-			<input name="email" type="text" placeholder="Email" />
-			<textarea name="text" placeholder="Bericht"></textarea>
-			<input type="submit" value="Verstuur" />
-		</form>
+	<main>
+		<section>
+			<img src="./images/bos-planten.png" alt="bos">
+			<h1>SAMEN MAKEN WE HET VERSCHIL</h1>
+			<p>Wist je dat: het leven in de Nederlandse natuur in razend tempo afneemt? Dat 90% van de zeevogels kleine
+				stukjes plastic in zijn buik heeft? En dat er elke 2 seconden een stuk bos ter grootte van een
+				voetbalveld verdwijnt? Als grootste internationale natuurorganisatie kunnen we écht het verschil maken.
+				Doe je mee?</p>
+		</section>
+
+		<section>
+			<form>
+				<div class="checkbox">
+					<input id="knop-maand" name="knop" type="radio" checked>
+					<label for="knop-maand">Donatie per maand €5,95</label>
+				</div>
+				<div class="checkbox">
+					<input id="knop-jaar" name="knop" type="radio">
+					<label for="knop-jaar">Donatie per jaar €71,40</label>
+				</div>
+			</form>
+		</section>
+
+		<section>
+			<p>* is verplicht</p>
+			<form>
+				<input id="rekeningnummer" name="rekeningnummer" type="text" placeholder="Rekeningnummer*" required />
+				<input id="tekst-naam" name="name" type="text" placeholder="Naam*" required />
+				<input id="adres" name="adres" type="text" placeholder="Adres*" required />
+				<input id="postcode" name="adres" type="text" placeholder="Postcode*" required />
+				<input id="plaats" name="plaats" type="text" placeholder="Plaats*" required />
+				<input id="tekst-email" name="email" type="email" placeholder="Email*" required />
+				<textarea name="text" placeholder="Opmerkingen"></textarea>
+			</form>
+
+		</section>
+
+		<section>
+			<h2> WIL JE HET WELKOMSTCADEAU ONTVANGEN?</h2>
+			<form>
+				<div class="checkbox">
+					<input id="maat35" name="knop" type="radio">
+					<label for="maat35">Ja, ik wil graag de witte retro-sokken maat 35-40</label>
+				</div>
+				<div class="checkbox">
+					<input id="maat41" name="knop" type="radio">
+					<label for="maat41">Ja, ik wil graag de witte retro-sokken maat 41-46</label>
+				</div>
+				<div class="checkbox">
+					<input id="neegeen" name="knop" type="radio">
+					<label for="neegeen">Nee, dank je</label>
+				</div>
+			</form>
+		</section>
+
+		<section>
+			<h2> WIL JE HET WWF MAGAZINE 'BE ONE WITH NATURE' ONTVANGEN?</h2>
+			<form>
+				<div class="checkbox">
+					<input id="papier" name="knop" type="radio">
+					<label for="papier">Ja, graag op papier</label>
+				</div>
+				<div class="checkbox">
+					<input id="digitaal" name="knop" type="radio">
+					<label for="digitaal">Ja, graag digitaal</label>
+				</div>
+
+			</form>
+		</section>
+
+		<section>
+			<h2> JOUW VOORKEUREN</h2>
+			<form>
+				<div class="checkbox">
+					<input id="natuurnieuws" name="knop" type="checkbox">
+					<label for="natuurnieuws">Ja, ik ontvang graag het laatste natuurnieuws, duurzame tips en acties in
+						mijn inbox (inschrijven mag vanaf 16 jaar).</label>
+				</div>
+				<div class="checkbox">
+					<input id="telefonisch" name="knop" type="checkbox">
+					<label for="telefonisch">Ja, WWF mag mij ook telefonisch benaderen.</label>
+				</div>
+
+			</form>
+
+			<a aria-label="ja-ik-doe-mee" href="./index.html">Ja, ik help mee</a>
+		</section>
 
 
-	</section>
+	</main>
 
-</main>
+	<footer>
 
-<footer>
+		<section>
+			<a href="./formulier.html">Kom in Actie</a>
+
+			<a href="./formulier.html">Wat We Doen</a>
+
+			<a href="./formulier.html">Over WWF</a>
+
+			<a href="./formulier.html">Contact</a>
+
+		</section>
+
+		<article>
+			<h3>Over ons</h3>
+			<p>WWF-NL is onderdeel van het internationale WWF. We zijn op een missie: de wereld 'Nature Positive'
+				maken. Van natuurverlies naar natuurwinst, zo snel mogelijk. Want natuur is van levensbelang voor
+				dier en mens. Maar de wereld veranderen kan niemand alleen. Daarom werken we samen met lokale
+				partners, mensen, bedrijven en overheden wereldwijd.</p>
+			<p>Bij WWF betaal je met</p>
+		</article>
+
+		<ul>
+			<li>
+				<img src="./images/ideal.svg" alt="ideal">
+			</li>
+			<li>
+				<img src="./images/sepa.png" alt="sepa">
+			</li>
+		</ul>
+		<ul>
+			<li>
+				<img src="./images/npl_logo_2022.png" alt="npl">
+			</li>
+			<li>
+				<img src="./images/wwf-logo-anbi.png" alt="anbi">
+			</li>
+			<li>
+				<img src="./images/wwf-logo-cbf-goed-doel.png" alt="cbf">
+			</li>
+			<li>
+				<img src="./images/wwf-logo-privacy-waarborg.png" alt="privacy">
+			</li>
+
+		</ul>
+
+		<section>
+			<img src="./images/logo-footer.svg" alt="logo footer">
+		</section>
 
 
-</footer>
+	</footer>
 
 
 	<script defer src="scripts/script.js"></script>
 </body>
-	
+
 </html>
